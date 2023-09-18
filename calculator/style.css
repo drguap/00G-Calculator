@@ -1,0 +1,57 @@
+*{
+	margin: none;
+}
+
+body {
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+input {
+	background-color: silver;
+	width: 35vw;
+	height: 10vh;
+	margin-bottom: 2.5vh
+}
+
+.calculator-container {
+		background-color: grey;
+		width: 40vw;
+		height: 80vh;
+		display: grid;
+		 place-items: center;
+		 padding-top: 2.5vh;
+		 padding-bottom: 2.5vh;
+}
+
+/*.display {
+	background-color: silver;
+	width: 35vw;
+	height: 10vh;
+	margin-bottom: 0.5vh;
+}*/
+
+.key-pad {
+	background-color: orange;
+	width: 35vw;
+	height: 70vh;
+	display: grid;
+	 place-items: center;
+	 grid-template-columns: auto auto auto auto auto;
+}
+
+.numbers {
+	width: 5vw;
+	height: 5vh;
+	background-color: white;
+
+}
+
+.opperator {
+	background-color: black;
+	color: white;
+	width: 5vw;
+	height: 5vh;
+}
