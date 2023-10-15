@@ -27,34 +27,47 @@ function division() {
 function multiplication() {
 	console.log('Multiplication is clicked');
 }
+function zero() {
+	let one = 0;
+	console.log(zero);
+}
 function one() {
-	let one = numbers[1];
+	let one = 1;
 	console.log(one);
 }
 function two() {
-	console.log("two is clicked");
+	let two = 2;
+	console.log(two);
 }
 function three() {
-	console.log("three is clicked");
+	let three = 3;
+	console.log(three);
 }
 function four() {
-	console.log("four is clicked");
+	let four = 4;
+	console.log(four);
 }
 function five() {
-	console.log("five is clicked");
+	let five = 5;
+	console.log(five);
 }
 function six() {
-	console.log("six is clicked");
+	let six = 6;
+	console.log(six);
 }
 function seven() {
-	console.log("seven is clicked");
+	let seven = 7;
+	console.log(seven);
 }
 function eight() {
-	console.log("eight is clicked");
+	let eight = 8;
+	console.log(eight);
 }
 function nine() {
-	console.log("nine is clicked");
+	let nine = 9;
+	console.log(nine);
 }
 function ten() {
-	console.log("ten is clicked");
+	let ten = 10;
+	console.log(ten);
 }
