@@ -1,10 +1,14 @@
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //let autoClear  = [];
 //let addition = numbers + numbers; 
 //let subtraction = numbers - numbers;
 //let division = numbers / numbers;
 //let multiplication = numbers * numbers;
 let display = [];
+
+function problemSolving(){
+
+}
 
 // add an event listner to the buttons
 function autoClear() {
@@ -24,7 +28,8 @@ function multiplication() {
 	console.log('Multiplication is clicked');
 }
 function one() {
-	console.log("one is clicked");
+	let one = numbers[1];
+	console.log(one);
 }
 function two() {
 	console.log("two is clicked");
